@@ -1,0 +1,94 @@
+@media print{
+  body {
+    width: 8.5in;
+    height: 11in;
+    margin: 0in .1875in;
+  }
+  .patient-border{
+    width: 581px;
+    height: 90px;
+    border: 1px solid #000;
+    position: relative;
+    padding-left: 108px;
+    padding-top:10px
+  }
+  #barcode{
+    position: absolute;
+    top: 8px;
+    left: 534px;
+    width: 165px;
+    height: 100px;
+  }
+
+  #image-box{
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+  }
+
+  #patient-name{
+    position: absolute;
+    top: 33px;
+    left: 33px;
+    width: 208px;
+    height: 100px;
+    font-size: 28px;
+  }
+
+  #doctor-info{
+    position: absolute;
+    top: 27px;
+    left: 257px;
+    width: 173px;
+    height: 100px;
+    font-size: 20px;
+  }
+
+
+  .product-box{
+    width: 689px;
+    height: 90px;
+    border: 1px solid #000;
+    position: relative;
+    top: -1px;
+    left: 0px;
+  }
+
+  tr.border_bottom td {
+    border-bottom:1pt solid black;
+  }
+
+  .label{
+    width: 1.025in; /* plus .6 inches from padding */
+    height: 1.475in; /* plus .125 inches from padding */
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    outline: 3px dotted; /* outline doesn't occupy space like border does */
+  }
+
+  .page-break  {
+    clear: left;
+    display:block;
+    page-break-after:always;
+  }
+
+  .date-time {
+      position:	absolute;
+      top: 0px;
+      height: .64in;
+      width: 1.025in;
+      background: #f00;
+  }
+
+  .product {
+      position:	absolute;
+      top: 50px;
+      bottom: 50px;
+      width:100%;
+      background: #0f0;
+  }
+}
